@@ -28,8 +28,8 @@ Hi, I'm Utsanjan Maity, a tech enthusiast passionate about exploring and sharing
 
 ## 📢 Connect With Us
 - **YouTube**: [DynaSage](https://youtube.com/@dynasage)
-- **Twitter**: [DynaSage](https://x.com/thedynasage)
 - **Threads**: [DynaSage](https://www.threads.net/@thedynasage)
+- **Twitter**: [DynaSage](https://x.com/thedynasage)
 
 ## 📧 Contact
 Have questions or suggestions? Feel free to reach out at [utsanjan@dynasage.com](mailto:utsanjan@dynasage.com).
