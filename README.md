@@ -1,6 +1,6 @@
 # DynaSage Tech Blog
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/utsanjan)‎ ‎
-[![](https://dcbadge.vercel.app/api/server/uavTPkr?style=flat)](https://discord.gg/bvzTHWnD3n)‎ ‎ 
+[![](https://dcbadge.limes.pink/api/server/uavTPkr?style=flat)](https://discord.gg/bvzTHWnD3n)‎ ‎ 
 [![](https://img.shields.io/github/languages/top/DynaSage/DynaSage-Blog?color=light%20green&style=flat)](https://github.com/DynaSage/DynaSage-Blog)‎ ‎ 
 [![](https://img.shields.io/github/languages/count/DynaSage/DynaSage-Blog?style=flat)](https://github.com/DynaSage/DynaSage-Blog/search?l=shell)‎ ‎
 [![](https://img.shields.io/github/license/DynaSage/DynaSage-Blog?logoColor=red&style=flat)](https://github.com/DynaSage/DynaSage-Blog/blob/main/LICENSE)‎ ‎<br><br>
