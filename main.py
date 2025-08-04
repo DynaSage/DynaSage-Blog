@@ -4,7 +4,7 @@ import sys
 import random
 import requests
 import threading
-from subprocess import call  # Kept for clear, but optional
+from subprocess import call
 
 app = Flask(__name__)
 app.secret_key = 'super_secret_key'
@@ -14,18 +14,33 @@ colors = [
     '\033[1;36m'
 ]
 
+# Function to clear console (not needed for web, but kept)
 def clear():
     _ = call('clear' if os.name == 'posix' else 'cls')
 
+# Banner function (adapted to return string for potential web display)
 def banner():
-    os.system('''
-    printf "\n\e[1;32m▀█▀ █▀ █░█ █▄░█ ▄▀█ █▀▄▀█ █\n"
-    printf "░█░ ▄█ █▄█ █░▀█ █▀█ █░▀░█ █\e[0m\n"
-    printf "\e[31m═══════════════════════════\e[0m\n"
-    printf "\e[31m\e[1;95mB O M B I N G   W E B A P P\n"
-    printf "DEVELOPED BY UTSANJAN MAITY\e[0m\n"
-    printf "\e[31m═══════════════════════════\e[0m\n"
-        ''')
+    return '''
+    printf "\n"
+    printf "         ████████╗███████╗██╗   ██╗███╗   ██╗ █████╗ ███╗   ███╗██╗\n"
+    printf "         ╚══██╔══╝██╔════╝██║   ██║████╗  ██║██╔══██╗████╗ ████║██║\n"
+    printf "            ██║   ███████╗██║   ██║██╔██╗ ██║███████║██╔████╔██║██║\n"
+    printf "            ██║   ╚════██║██║   ██║██║╚██╗██║██╔══██║██║╚██╔╝██║██║\n"
+    printf "            ██║   ███████║╚██████╔╝██║ ╚████║██║  ██║██║ ╚═╝ ██║██║\n"
+    printf "            ╚═╝   ╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝\n\n"
+    printf "\e[1;32m         ╔════════════════════════════════════════════════════════╗\n"
+    printf "\e[1;32m         ║         \e[0m\e[1;95m   OTP and CALL Bombing Bash Script   \e[1;32m         ║\n"
+    printf "\e[1;32m         ║      \e[0m\e[1;95m  Developed by:\e[31m DopeSatan - Utsanjan Maity\e[1;32m        ║\n"
+    printf "\e[1;32m         ║  \e[0m\e[1;95m Only Indian mobile numbers are currently supported\e[1;32m   ║\n"
+    printf "\e[1;32m         ╚════════════════════════════════════════════════════════╝\n"
+    printf "\n"
+    printf "         \e[101m\e[1;77mㅤ                                                      ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ    DISCLAIMER:~ Developer will not be responsible    ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ    for any misuse or damage caused by this script    ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ   Please do not use this script for taking Revenge   ㅤ\e[0m\n"
+    printf "         \e[101m\e[1;77mㅤ                                                      ㅤ\e[0m\n"
+    printf "\n"
+    '''
 
 def infinite(target, color, msgs):
     times = 0
