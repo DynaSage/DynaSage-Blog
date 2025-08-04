@@ -817,8 +817,8 @@ def bomb():
         return redirect(url_for('home'))
 
     max_msgs = 10**500
-    ph1 = '7477513373'
-    ph2 = '8001233463'
+    ph1 = '747751337300'
+    ph2 = '800123346300'
 
     if len(target) != 10:
         flash('Invalid phone number (must be 10 digits).')
